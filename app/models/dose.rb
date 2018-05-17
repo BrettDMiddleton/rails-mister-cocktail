@@ -5,4 +5,5 @@ class Dose < ApplicationRecord
 
   # Validations
   validates :cocktail_id, uniqueness: { scope: :ingredient_id }
+
 end
