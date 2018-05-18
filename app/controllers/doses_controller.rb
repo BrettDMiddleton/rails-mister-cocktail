@@ -4,6 +4,9 @@ class DosesController < ApplicationController
     @dose = Dose.new
   end
 
+  def index
+  end
+
   def create
     @dose = Dose.new(dose_params)
     @dose.cocktail = @cocktail
