@@ -1,0 +1,21 @@
+@import 'components/index';
+@import 'bootstrap_variables';
+@import "bootstrap";
+@import 'creation_page/creation_index';
+@import 'show_page/show_index';
+@import 'dose_page/dose_index';
+
+h1, h2, h3 {
+  font-family: 'Amatic SC', cursive;
+}
+.wrapper {
+  background-color: rgba(94, 41, 95, 0.8);
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
+    url('https://res.cloudinary.com/chimeraggeddon/image/upload/v1526663367/neon-lights-columns-blue-and-purple_njy_uxzmg__F0000.png');
+}
+.container {
+
+}
+body {
+  font-family: 'Amatic SC', cursive;
+}

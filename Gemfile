@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
 
+# Gem to generate simple form from bootstrap
+gem 'simple_form'
 # For seed url for JSON to parse
 gem 'rest-client'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -61,3 +63,4 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem 'bootstrap-sass', '~> 3.3.7'

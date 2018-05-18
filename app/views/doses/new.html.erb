@@ -1,0 +1,22 @@
+
+<div class="dose-wrapper">
+  <div class="dose-container">
+    <div class="dose-body">
+      <div class="title">
+        <h1>Cocktail Creation</h1>
+      </div>
+      <div>
+        <%= simple_form_for [@cocktail, @dose] do |f| %>
+          <%= f.input :description %>
+          <%= f.association :ingredient %>
+          <%= f.submit %>
+         <% end %>
+      </div>
+    </div>
+    <span class="btn-neon"><%= link_to "Back", cocktails_path %></span>
+  </div>
+</div>
+
+
+
+

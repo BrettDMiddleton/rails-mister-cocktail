@@ -1,0 +1,17 @@
+.btn-neon {
+  color: rgb(94, 41, 95);
+  background-color: rgb(94, 41, 95);
+  border: 2px solid rgb(0, 179, 195);
+  border-radius: 50px;
+  font-weight: bolder;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  opacity: 0.9;
+  text-decoration: none;
+  padding: 10px;
+}
+.btn-neon:hover {
+  opacity: 0.6;
+  color: rgb(0, 179, 195);
+}
+
